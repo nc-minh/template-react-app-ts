@@ -98,5 +98,6 @@
         "statements": 90
       }
     }
-  }
+  },
+  "postinstall": "husky install"
 }

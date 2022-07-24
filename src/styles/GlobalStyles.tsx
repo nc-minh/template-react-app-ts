@@ -1,11 +1,11 @@
-import "./GlobalStyles.scss";
+import './GlobalStyles.scss';
 
 interface Props {
-	children: JSX.Element;
+  children: JSX.Element;
 }
 
 const GlobalStyles = ({ children }: Props) => {
-	return children;
+  return children;
 };
 
 export default GlobalStyles;
