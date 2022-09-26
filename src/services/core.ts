@@ -1,5 +1,4 @@
 import { AxiosResponse } from 'axios';
-
 import axiosInstance from 'utils/api/axiosInstance';
 
 export const createUser = async (payload: any) => {

@@ -1,6 +1,7 @@
-import { Fragment } from 'react';
-import { Routes, Route } from 'react-router-dom';
 import { publicRoutes } from 'app/routes';
+import { Fragment } from 'react';
+import { Route, Routes } from 'react-router-dom';
+
 import DefaultLayout from './DefaultLayout';
 
 function RootLayout() {

@@ -1,10 +1,9 @@
+import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
+import RootLayout from 'app/layouts/rootLayout';
 import * as React from 'react';
 import { Helmet } from 'react-helmet-async';
-import { BrowserRouter } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
-import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
-
-import RootLayout from 'app/layouts/rootLayout';
+import { BrowserRouter } from 'react-router-dom';
 
 const queryClient = new QueryClient();
 

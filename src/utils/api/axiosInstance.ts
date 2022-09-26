@@ -1,7 +1,7 @@
 import axios from 'axios';
-
 import configs from 'configs';
 import { getTokens, removeItemFromStorage } from 'utils/storage';
+
 import handleRefreshToken from './refreshToken';
 
 const axiosInstance = axios.create({

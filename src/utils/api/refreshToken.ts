@@ -1,8 +1,8 @@
 /* eslint-disable @typescript-eslint/naming-convention */
 import axios, { AxiosRequestConfig } from 'axios';
-
 import configs from 'configs';
 import { getTokens, setTokens } from 'utils/storage';
+
 import axiosInstance from './axiosInstance';
 
 async function handleRefreshToken({

@@ -17,4 +17,4 @@ const getTokens = () =>
 // Remove items from storage
 export const removeItemFromStorage = (key: any) => localStorage.removeItem(key);
 
-export { setLanguage, getLanguage, setTokens, getTokens };
+export { getLanguage, getTokens, setLanguage, setTokens };

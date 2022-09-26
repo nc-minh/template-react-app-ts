@@ -1,8 +1,8 @@
 //Layout
 import NoFooterLayout from 'app/layouts/NoFooterLayout';
-
 import { Home } from 'app/pages/Home';
 import { Introduction } from 'app/pages/Introduction';
+
 import { PublicRoutes } from './types';
 
 //Public routes
